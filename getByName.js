@@ -69,10 +69,7 @@ function createCharacterInfoItem(label, value) {
   return listItem;
 }
 
-
-
-
-  // foreach to get all the characters
-  characters.forEach(character => {
-    charDiv.innerHTML += `<div><img src="${character.image}"><h2>${character.name}</h2></div>`;
-  });
+// foreach to get all the characters
+characters.forEach(character => {
+  charDiv.innerHTML += `<div><img src="${character.image}"><h2>${character.name}</h2></div>`;
+});
